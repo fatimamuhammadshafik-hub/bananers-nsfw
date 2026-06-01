@@ -1,0 +1,55 @@
+body {
+body {
+    margin: 0;
+    background: black;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.screen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.purple-btn,
+.green-btn {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 999px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.purple-btn {
+    background: purple;
+    color: white;
+}
+
+.green-btn {
+    background: limegreen;
+    color: black;
+}
+
+.purple-btn:hover,
+.green-btn:hover {
+    transform: scale(1.05);
+}
+
+#scene {
+    position: fixed;
+    inset: 0;
+}
+
+#gif {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
